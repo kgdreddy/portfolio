@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #8875a2;
+  color: #12084e;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50% solid #cccccc;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 solid #203fae;
+}
+
+header p {
+  margin: 20px 0 20px;
+}
+
+.profile-ids {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-ids li {
+  display: inline-block solid #203fae;
+  margin-right: 10px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px 0 solid #203fae;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 40px solid #203fae;
+}
+
+/* Resume styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+}
